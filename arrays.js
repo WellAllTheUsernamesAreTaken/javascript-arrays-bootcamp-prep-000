@@ -20,7 +20,9 @@ function accessElementInArray(array, index) {
 
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return array.slice(1);
+  var a = array;
+  a = a.slice(1);
+  return a
 }
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1);
