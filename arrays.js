@@ -13,3 +13,7 @@ function addElementToEndOfArray() {
 function destructivelyAddElementToEndOfArray() {
   
 }
+
+function accessElementInArray() {
+  
+}
