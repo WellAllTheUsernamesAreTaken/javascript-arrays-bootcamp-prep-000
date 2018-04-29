@@ -10,4 +10,6 @@ function destructivelyAddElementToBeginningOfArray() {
 function addElementToEndOfArray() {
   
 }
-function 
+function destructivelyAddElementToEndOfArray() {
+  
+}
