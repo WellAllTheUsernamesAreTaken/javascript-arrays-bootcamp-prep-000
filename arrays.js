@@ -21,3 +21,7 @@ function accessElementInArray() {
 function destructivelyRemoveElementFromBeginningOfArray() {
   
 }
+
+function removeElementFromBeginningOfArray() {
+  
+}
