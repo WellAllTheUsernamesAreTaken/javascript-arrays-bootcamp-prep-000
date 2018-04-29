@@ -19,13 +19,13 @@ function accessElementInArray(array, index) {
 }
 
 
-function destructivelyRemoveElementFromBeginningOfArray() {
+function destructivelyRemoveElementFromBeginningOfArray(array, element) {
   return array.slice(element);
 }
 function removeElementFromBeginningOfArray(array, element) {
   return array.slice();
 }
-function destructivelyRemoveElementFromEndOfArray() {
+function destructivelyRemoveElementFromEndOfArray(array, element) {
   return array.shift();
 }
 function removeElementFromEndOfArray(array, element) {
