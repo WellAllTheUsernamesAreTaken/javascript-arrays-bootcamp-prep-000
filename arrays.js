@@ -23,13 +23,14 @@ function accessElementInArray(array, index) {
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   var a = array.slice(-2);
-  return a //array.slice(1);
+  return a;
 }
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1);
 }
 function destructivelyRemoveElementFromEndOfArray(array) {
-  return array.shift(1);
+  var a = array.shift(1);
+  return a;
 }
 function removeElementFromEndOfArray(array) {
   return array.shift(1);
